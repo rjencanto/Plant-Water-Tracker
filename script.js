@@ -10,57 +10,57 @@ let plants = [
     { name: "Aloe Vera",
          water: "100ml", 
          watered: false ,
-        image:"image/aloevera_plant.jpg"},
+        image:"aloevera_plant.jpg"},
 
     { name: "Table Rose" ,
          water:"150ml",
          watered:false,
-        image:"image/table_rose.webp"},
+        image:"table_rose.webp"},
 
     { name: "Tomato", 
         water: "200ml", 
         watered: false ,
-       image:"image/tomato_plant.jpg"},
+       image:"tomato_plant.jpg"},
 
     { name: "Pepper chilly",
          water: "100ml", 
          watered: false,
-        image:"image/pepper_chilly_plant.jpg" },
+        image:"pepper_chilly_plant.jpg" },
 
     { name: "Snake plant" ,
          water:"150ml",
          watered:false,
-        image:"image/snake_plant.jpg"},
+        image:"snake_plant.jpg"},
 
     { name: "Hibiscus", 
         water: "200ml", 
         watered: false ,
-      image:"image/hibiscus_plant.jpg"},
+      image:"hibiscus_plant.jpg"},
 
     { name: "Rose", 
         water: "100ml",
          watered: false ,
-        image:"image/rose.jpg"},
+        image:"rose.jpg"},
 
     { name: "Jade" , 
         water:"150ml",
         watered:false,
-      image:"image/jade_plant.jpg"},
+      image:"jade_plant.jpg"},
 
     { name: "Tulasi",
          water: "200ml",
           watered: false,
-        image:"image/tulasi_plant.jpg" },
+        image:"tulasi_plant.jpg" },
 
     { name: "Curry Leave", 
         water: "100ml", 
         watered: false ,
-      image:"image/curry_leaves.jpg"},
+      image:"curry_leaves.jpg"},
 
     { name: "Marudhani leaves",
          water:"150ml",
          watered:false,
-        image:"image/marudhani_plant.webp"}
+        image:"marudhani_plant.webp"}
 
 ];
 
