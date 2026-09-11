@@ -5,7 +5,7 @@ let plants = [
     { name: "Money Plant", 
         water: "200ml",
          watered: false,
-        image:"image/money_plant.jpg"},
+        image:"money_plant.jpg"},
 
     { name: "Aloe Vera",
          water: "100ml", 
