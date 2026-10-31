@@ -1,0 +1,163 @@
+
+/* Environment Dashboard - Main Container */
+.environment-dashboard {
+    width: 100%;
+    padding: 15px;
+    color: #222;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.environment-dashboard * {
+    box-sizing: border-box;
+}
+
+.environment-dashboard .dashboard-heading {
+    margin-bottom: 20px;
+}
+
+.environment-dashboard .dashboard-heading h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.environment-dashboard .dashboard-heading p {
+    color: #777;
+}
+
+/* Top Dashboard Cards */
+.environment-dashboard .metric-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+}
+
+.environment-dashboard .metric-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 7px #0002;
+    min-width: 0;
+    border: 1px solid #eee;
+}
+
+.environment-dashboard .metric-card h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.environment-dashboard .metric-value {
+    font-size: 38px;
+    font-weight: bold;
+    margin: 12px 0;
+}
+
+.environment-dashboard .metric-value span {
+    font-size: 12px;
+    color: #999;
+    font-weight: normal;
+}
+
+.environment-dashboard .metric-icon {
+    float: right;
+    background: #c7f0df;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Dashboard Middle Section */
+.environment-dashboard .middle-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.environment-dashboard .dashboard-panel {
+    background: white;
+    padding: 18px;
+    border-radius: 15px;
+    box-shadow: 0 2px 7px #0002;
+    border: 1px solid #eee;
+}
+
+.environment-dashboard .timeline-item {
+    padding: 15px;
+    margin: 12px 0;
+    border-left: 4px solid #19bb79;
+    background: #e4f8ee;
+    border-radius: 8px;
+}
+
+.environment-dashboard .alert-item {
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 13px;
+}
+
+.environment-dashboard .alert-panel {
+    background: #fff4c5;
+}
+
+/* Growth Analytics */
+.environment-dashboard .analytics-panel {
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 7px #0002;
+    border: 1px solid #eee;
+}
+
+.environment-dashboard .analytics-panel h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.environment-dashboard .chart-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.environment-dashboard .chart-container svg {
+    width: 100%;
+    min-width: 450px;
+    height: auto;
+}
+
+/* Sunlight and watering visual indicators */
+.environment-dashboard .bar-chart {
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    height: 75px;
+    margin-top: 15px;
+}
+
+.environment-dashboard .bar-chart div {
+    flex: 1;
+    background: #20bd7b;
+    border-radius: 3px 3px 0 0;
+}
+
+/* Responsive Design */
+@media(max-width: 750px) {
+    .environment-dashboard .metric-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .environment-dashboard .middle-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 480px) {
+    .environment-dashboard {
+        padding: 5px;
+    }
+
+    .environment-dashboard .metric-card {
+        padding: 15px;
+    }
+}
